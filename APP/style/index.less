@@ -1,6 +1,193 @@
-@mycolor01:blue;
-@mycolor02:yellow;
-p{
-  color: @mycolor01;
-  background: @mycolor02;
+.border(@width:1px,@line:solid,@color:red){
+  border:@arguments;
+}
+
+@header-height: 45px;
+@myorange: rgba(242,101,34,1);
+@mygray: rgba(177,181,177,1);
+@bodycolor: rgba(243,243,243,1);
+
+body{
+  min-width: 260px;
+  background-color: @bodycolor;
+}
+#header{
+  position: relative;
+  width:100%;
+  height: @header-height;
+  background: @myorange;
+  #header-logo {
+    height: @header-height;
+    //.border;
+    float: left;
+    img {
+      height: @header-height;
+    }
+  }
+  #header-location{
+    line-height: @header-height;
+    height: @header-height;
+    float: left;
+    //.border;
+    color: white;
+    height: @header-height;
+    line-height: @header-height;
+    //.border;
+  }
+  img{
+    height: 20px;
+    }
+  #header-menu{
+    width: auto;
+    height: 44px;
+    //.border;
+    float: right;
+    img{
+      height: 44px;
+    }
+  }
+}
+#header-menu-pulldown{
+  z-index: 2;
+  visibility: hidden;
+  position: absolute;
+  right: 0px;
+  width: 140px;
+  height: 120px;
+  background-color: rgba(235,97,32,1);
+  //.border;
+  li{
+    width: 100%;
+    height: 60px;
+    color: white;
+    padding-top: 18px;
+    padding-left: 24px;
+    //.border;
+    img{
+      width: 25px;
+    }
+  }
+}
+
+//电影、影院切换标签
+@toggle-label-height:42px;
+#toggle-label{
+  font-size: larger;
+  //.border;
+  height: @toggle-label-height;
+  position: relative;
+  #movie-label{
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    line-height: @toggle-label-height;
+    color: @myorange;
+    //.border();
+    border-bottom: 2px solid @myorange;
+  }
+  #cinema-label{
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    line-height: 50px;
+    color: rgba(41, 42, 42, 0.78);
+    //.border();
+    border-bottom: 2px solid @mygray;
+  }
+}
+#onsale{
+  color: #999;
+  padding-top: 12px;
+  padding-left: 12px;
+  //.border;
+}
+//
+////电影流样式
+//.movie-flow{
+//  margin:  12px;
+//  margin-top: 10px;
+//  //.border;
+//  height: 200px;
+//  border-bottom: 2px solid @mygray;
+//}
+//.poster{
+//  float: left;
+//  display: inline-block;
+//  width: 120px;
+//  height: 200px;
+//  //.border;
+//  img{
+//    width: 100%;
+//  }
+//}
+//.movie-information{
+//  padding-left: 12px;
+//  float: left;
+//  display: inline-block;
+//  width: 220px;
+//  height: 170px;
+//  //.border;
+//}
+//.movie-name{
+//  font-size: 22px;
+//}
+//.description{
+//  margin-top: 30px;
+//  margin-bottom: 62px;
+//  font-size: 12px;
+//  color: #666;
+//  img{
+//    height: 20px;
+//  }
+//}
+//.movie-box{
+//  span{
+//    color: @myorange;
+//  }
+//}
+//.movie-score{
+//  //float: right;
+//  //display: inline-block;
+//  //width:40px;
+//  //height: 200px;
+//  text-align: right;
+//  //padding-right: 15px;
+//  //.border;
+//  float: right;
+//}
+//.score{
+//  color: @myorange;
+//  font-size: 20px;
+//}
+//.score-sup{
+//  color: @myorange;
+//  font-size:13px;
+//}
+
+.movie-flow{
+  margin-top: 12px;
+  margin-left:12px;
+  margin-right:12px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+@poster-width: 80px;
+.poster{
+  display: inline-block;
+  width: @poster-width;
+  //.border;
+  img{
+    width: @poster-width;
+  }
+}
+.movie-name{
+  display: inline-block;
+  .border;
+}
+.movie-score{
+  text-align: right;
 }
