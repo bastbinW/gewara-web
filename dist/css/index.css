@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   min-width: 260px;
   background-color: #f3f3f3;
@@ -180,7 +179,7 @@ body {
   color: #eb6120;
 }
 #openAPP .description {
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: -45px;
 }
 #open {
@@ -195,8 +194,21 @@ body {
   top: 0;
   right: 0;
 }
-=======
-p {
-  color: #1b6d85;
+#movie-select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid red;
 }
->>>>>>> 133d3aedbc6f28916e9356834f914aae58c8fdeb
+#movie-select #movie-area {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  border: 1px solid red;
+}
+#movie-select #movie-feature {
+  width: 50%;
+  display: inline-block;
+  border: 1px solid red;
+  float: left;
+}

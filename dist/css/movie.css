@@ -69,10 +69,7 @@ ul li {
   width: 100%;
   display: flex;
   justify-content: flex-start;
-<<<<<<< HEAD
-=======
   margin-top: 18px;
->>>>>>> 133d3aedbc6f28916e9356834f914aae58c8fdeb
 }
 .center-c .ccc .xingxing {
   width: 8%;
@@ -82,30 +79,14 @@ ul li {
   width: 100%;
 }
 .center-c .ccc .ccc-l {
-<<<<<<< HEAD
-  width: 30%;
-  margin-left: 20px;
-  margin-top: 6%;
-=======
   width: 32%;
   margin-left: 20px;
->>>>>>> 133d3aedbc6f28916e9356834f914aae58c8fdeb
 }
 .center-c .ccc .ccc-l img {
   width: 100%;
   border: 3px solid white;
   border-radius: 4px;
 }
-<<<<<<< HEAD
-.center-c .ddd {
-  padding-top: 15%;
-  margin-left: 20px;
-}
-.center-c .ddd span {
-  font-size: 12px;
-}
-=======
->>>>>>> 133d3aedbc6f28916e9356834f914aae58c8fdeb
 .jianjie p {
   font-size: 12px;
 }
