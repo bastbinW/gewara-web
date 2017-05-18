@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .border(@width:1px,@line:solid,@color:red){
   border:@arguments;
 }
@@ -26,8 +26,6 @@ body{
     }
   }
   #header-location{
-    line-height: @header-height;
-    height: @header-height;
     float: left;
     //.border;
     color: white;
@@ -48,14 +46,15 @@ body{
     }
   }
 }
+@myorange2:rgba(235,97,32,1);
 #header-menu-pulldown{
   z-index: 2;
   visibility: hidden;
   position: absolute;
-  right: 0px;
+  right: 0;
   width: 140px;
   height: 120px;
-  background-color: rgba(235,97,32,1);
+  background-color: @myorange2;
   //.border;
   li{
     width: 100%;
@@ -79,7 +78,7 @@ body{
   position: relative;
   #movie-label{
     position: absolute;
-    left: 0px;
+    left: 0;
     text-align: center;
     width: 50%;
     height: 100%;
@@ -90,7 +89,7 @@ body{
   }
   #cinema-label{
     position: absolute;
-    right: 0px;
+    right: 0;
     text-align: center;
     width: 50%;
     height: 100%;
@@ -100,7 +99,7 @@ body{
     border-bottom: 2px solid @mygray;
   }
 }
-#onsale{
+.sale-type{
   color: #999;
   padding-top: 12px;
   padding-left: 12px;
@@ -108,89 +107,121 @@ body{
 }
 //
 ////电影流样式
-//.movie-flow{
-//  margin:  12px;
-//  margin-top: 10px;
-//  //.border;
-//  height: 200px;
-//  border-bottom: 2px solid @mygray;
-//}
-//.poster{
-//  float: left;
-//  display: inline-block;
-//  width: 120px;
-//  height: 200px;
-//  //.border;
-//  img{
-//    width: 100%;
-//  }
-//}
-//.movie-information{
-//  padding-left: 12px;
-//  float: left;
-//  display: inline-block;
-//  width: 220px;
-//  height: 170px;
-//  //.border;
-//}
-//.movie-name{
-//  font-size: 22px;
-//}
-//.description{
-//  margin-top: 30px;
-//  margin-bottom: 62px;
-//  font-size: 12px;
-//  color: #666;
-//  img{
-//    height: 20px;
-//  }
-//}
-//.movie-box{
-//  span{
-//    color: @myorange;
-//  }
-//}
-//.movie-score{
-//  //float: right;
-//  //display: inline-block;
-//  //width:40px;
-//  //height: 200px;
-//  text-align: right;
-//  //padding-right: 15px;
-//  //.border;
-//  float: right;
-//}
-//.score{
-//  color: @myorange;
-//  font-size: 20px;
-//}
-//.score-sup{
-//  color: @myorange;
-//  font-size:13px;
-//}
-
-.movie-flow{
+@movie-flow-height: 130px;
+.flow-margin{
   margin-top: 12px;
-  margin-left:12px;
-  margin-right:12px;
+  margin-left:14px;
+  margin-right:14px;
   padding-bottom: 20px;
   border-bottom: 1px solid #ddd;
 }
+.movie-flow{
+  //.border;
+  .flow-margin;
+  display: block;
+  height: @movie-flow-height;
+}
 @poster-width: 80px;
 .poster{
+  left: 0;
+  position: absolute;
   display: inline-block;
+  float: left;
   width: @poster-width;
   //.border;
   img{
     width: @poster-width;
   }
 }
+.instraduction{
+  //.border;
+  position: relative;
+  padding-left:@poster-width+15px;
+  float: left;
+  width: 100%;
+}
+//换行
+.warp{
+  word-break: break-all;
+  -ms-word-wrap: break-word;
+  word-wrap:break-word;
+}
+
+.description,.movie-name{
+  .warp;
+  img{
+    margin-top: -5px;
+    height: 12px;
+  }
+}
+.description{
+  color: #666;
+  margin-top: 12px;
+  margin-bottom: 22px;
+  height: 32px;
+}
 .movie-name{
-  display: inline-block;
-  .border;
+  font-size: 16px;
+  //.border;
 }
 .movie-score{
-  text-align: right;
+  float: right;
+  color: @myorange;
 }
-=======
->>>>>>> da367bcb24c0917c8f06b3ad9b8d4bc377b2bf50
+.movie-box{
+  span{
+    color: @myorange;
+  }
+}
+//更多热映影片
+.bar-button{
+  .flow-margin;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #666;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  background-color: #fbfbfb;
+}
+//底部固定提示
+#openAPP{
+  width: 100%;
+  background-color: @bodycolor;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 15px;
+  border-top:1px solid #bbb;
+  border-bottom: hidden;
+  .poster{
+    img{
+      width: 40px;
+    }
+  }
+  .movie-name{
+    margin-left:-45px;
+    color: @myorange2;
+  }
+  .description{
+    margin-top: 0px;
+    margin-left:-45px;
+  }
+}
+
+#open{
+  height: 30px;
+  width: 70px;
+  line-height: 30px;
+  background-color: white;
+  //.border;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  right:0;
+
+}
