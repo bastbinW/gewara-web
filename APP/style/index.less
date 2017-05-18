@@ -209,39 +209,104 @@ body{
     margin-top: 0;
     margin-left:-45px;
   }
+  //底部固定提示-打开APP
+  #open-now{
+    height: 30px;
+    width: 70px;
+    line-height: 30px;
+    color: @myorange2;
+    background-color: white;
+    //.border;
+    border: 1px solid @myorange2;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    top: 12px;
+    right:28px;
+  }
+  #close-bar-bottom{
+    img{
+      height: 18px;
+      position: absolute;
+      top: 5px;
+      right:5px;
+    }
+  }
 }
 
-//底部固定提示-打开APP
-#open{
-  height: 30px;
-  width: 70px;
-  line-height: 30px;
-  background-color: white;
-  //.border;
-  border: 1px solid #ccc;
-  text-align: center;
-  border-radius: 3px;
-  position: absolute;
-  top: 0;
-  right:0;
-}
+
 
 //影院部分
+@mygray: #bbb;
 #movie-select{
+  padding-top: 10px;
+  color: #666;
   width: 100%;
   height: 40px;
-  .border;
+  img{
+    height: 16px;
+  }
+  //.border;
+  border-bottom:1px solid @mygray;
   #movie-area{
     width: 50%;
     display: inline-block;
     float: left;
     text-align: center;
-    .border;
+    //.border;
+    border-right: 1px solid @mygray;
+
   }
   #movie-feature{
     width: 50%;
     display: inline-block;
-    .border;
+    float: left;
+    text-align: center;
+  }
+}
+
+#cinema-flow{
+  .movie-flow{
+    //.border;
+    height: 90px;
+    .instraduction{
+      //.border;
+      padding-left: 15px;
+      .movie-name{
+      }
+      .description{
+        //.border;
+        margin-top: 5px;
+        margin-bottom: -1px;
+      }
+      .movie-box{
+        font-size: 12px;
+        color: @mygray;
+        img{
+          height: 16px;
+        }
+      }
+    }
+  }
+}
+
+//电影、影院切换标签样式
+body{
+  overflow-x: hidden;
+}
+#tab-container{
+  width:200%;
+  #tab-movie{
+    //.border;
+    width:50%;
+    display: inline-block;
+    float: left;
+    margin-left: -0%;    //控制标签页滑动
+  }
+  #tab-cinema{
+    //.border;
+    width:50%;
+    display: inline-block;
     float: left;
   }
 }
