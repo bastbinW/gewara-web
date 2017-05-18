@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   min-width: 260px;
   background-color: #f3f3f3;
@@ -194,3 +195,8 @@ body {
   top: 0;
   right: 0;
 }
+=======
+p {
+  color: #1b6d85;
+}
+>>>>>>> 133d3aedbc6f28916e9356834f914aae58c8fdeb
