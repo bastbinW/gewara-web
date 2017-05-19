@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="6e66314c-2261-45e2-995e-033d2ce3a38d" name="Default" comment="">
 <<<<<<< HEAD
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/APP/222.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/img/222.png" afterPath="$PROJECT_DIR$/APP/img/222.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/img/back.png" afterPath="$PROJECT_DIR$/APP/img/back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/img/go.png" afterPath="$PROJECT_DIR$/APP/img/go.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/img/menu.png" afterPath="$PROJECT_DIR$/APP/img/menu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/XXX影院.html" afterPath="$PROJECT_DIR$/APP/XXX影院.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/style/shouye.less" afterPath="$PROJECT_DIR$/APP/style/shouye.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/影院详情.html" afterPath="$PROJECT_DIR$/APP/影院详情.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/购票.html" afterPath="$PROJECT_DIR$/APP/购票.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/shouye.css" afterPath="$PROJECT_DIR$/dist/css/shouye.css" />
+=======
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/movie.css" afterPath="$PROJECT_DIR$/dist/css/movie.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/movie.html" afterPath="$PROJECT_DIR$/APP/movie.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/style/movie.less" afterPath="$PROJECT_DIR$/APP/style/movie.less" />
@@ -20,6 +33,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/movie.css" afterPath="$PROJECT_DIR$/dist/css/movie.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/xuanzuogoupiao.css" afterPath="$PROJECT_DIR$/dist/css/xuanzuogoupiao.css" />
 >>>>>>> 39a4665cb1cbc166cdef20b718532a639ed3904e
+>>>>>>> 606737e68a058f017ed5cef5d196a489fbf4ec50
     </list>
     <ignored path="gewara-web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,9 +61,27 @@
               <caret line="58" column="64" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
 =======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="movie.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APP/movie.html">
+      <file leaf-file-name="xuanzuogoupiao.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APP/xuanzuogoupiao.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="影院详情.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APP/影院详情.html">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="264">
+              <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
             <state relative-caret-position="4070">
               <caret line="185" column="46" lean-forward="false" selection-start-line="185" selection-start-column="46" selection-end-line="185" selection-end-column="46" />
 >>>>>>> 39a4665cb1cbc166cdef20b718532a639ed3904e
@@ -103,14 +135,24 @@
                 <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 606737e68a058f017ed5cef5d196a489fbf4ec50
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xuanzuogoupiao.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APP/xuanzuogoupiao.html">
+      <file leaf-file-name="购票.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/APP/购票.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="121">
+              <caret line="85" column="16" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+=======
 <<<<<<< HEAD
             <state vertical-scroll-proportion="-7.857143" vertical-offset="1342" max-vertical-offset="2948">
               <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
@@ -119,10 +161,18 @@
               <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
 >>>>>>> 39a4665cb1cbc166cdef20b718532a639ed3904e
               <folding />
+>>>>>>> 606737e68a058f017ed5cef5d196a489fbf4ec50
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="common.rnc" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="192" column="18" lean-forward="false" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="xuanzuogoupiao.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APP/xuanzuogoupiao.html">
@@ -136,14 +186,34 @@
             <state relative-caret-position="409">
               <caret line="230" column="10" lean-forward="true" selection-start-line="230" selection-start-column="10" selection-end-line="230" selection-end-column="10" />
 >>>>>>> 39a4665cb1cbc166cdef20b718532a639ed3904e
+>>>>>>> 606737e68a058f017ed5cef5d196a489fbf4ec50
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xuanzuogoupiao.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APP/style/xuanzuogoupiao.less">
+      <file leaf-file-name="XXX影院.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APP/XXX影院.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="189">
+              <caret line="176" column="67" lean-forward="false" selection-start-line="176" selection-start-column="67" selection-end-line="176" selection-end-column="67" />
+              <folding>
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shouye.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/css/shouye.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2576">
+              <caret line="269" column="16" lean-forward="false" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
+=======
 <<<<<<< HEAD
             <state vertical-scroll-proportion="-5.5" vertical-offset="1518" max-vertical-offset="3212">
               <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
@@ -151,6 +221,7 @@
             <state relative-caret-position="1804">
               <caret line="82" column="15" lean-forward="false" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
 >>>>>>> 39a4665cb1cbc166cdef20b718532a639ed3904e
+>>>>>>> 606737e68a058f017ed5cef5d196a489fbf4ec50
               <folding />
             </state>
           </provider>
@@ -183,12 +254,20 @@
         <option value="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/APP/xuanzuogoupiao.html" />
 <<<<<<< HEAD
+        <option value="$PROJECT_DIR$/APP/XXX影院.html" />
+        <option value="$PROJECT_DIR$/APP/style/shouye.less" />
+        <option value="$PROJECT_DIR$/APP/影院详情.html" />
+        <option value="$PROJECT_DIR$/dist/css/shouye.css" />
+        <option value="$PROJECT_DIR$/APP/购票.html" />
+=======
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/APP/style/movie.less" />
         <option value="$PROJECT_DIR$/APP/style/xuanzuogoupiao.less" />
         <option value="$PROJECT_DIR$/APP/movie.html" />
 =======
         <option value="$PROJECT_DIR$/APP/style/shouye.less" />
 >>>>>>> 39a4665cb1cbc166cdef20b718532a639ed3904e
+>>>>>>> 606737e68a058f017ed5cef5d196a489fbf4ec50
       </list>
     </option>
   </component>
@@ -420,6 +499,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,16 +508,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\program\gewara-web\dist\css" />
-      <recent name="F:\program\gewara-web\APP\style" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\HTML5\gewara-web\APP" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HTML5\gewara-web\APP\img" />
+      <recent name="D:\HTML5\gewara-web\APP" />
+      <recent name="F:\program\gewara-web\dist\css" />
+      <recent name="F:\program\gewara-web\APP\style" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -536,12 +617,14 @@
       <workItem from="1494932904588" duration="12000" />
       <workItem from="1494938337269" duration="7416000" />
       <workItem from="1494945804166" duration="6991000" />
-      <workItem from="1495013372522" duration="80000" />
+      <workItem from="1495013372522" duration="176000" />
+      <workItem from="1495118323002" duration="1610000" />
+      <workItem from="1495158220064" duration="9403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16771000" />
+    <option name="totallyTimeSpent" value="27880000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -590,10 +673,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
 =======
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917705" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.5057554" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -634,6 +717,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/dist/css/movie.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -770,6 +855,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/movie.css" />
     <entry file="file://$PROJECT_DIR$/APP/style/movie.less" />
+>>>>>>> 606737e68a058f017ed5cef5d196a489fbf4ec50
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1341,7 +1427,7 @@
     <entry file="file://$PROJECT_DIR$/APP/img/time .png" />
     <entry file="file://$PROJECT_DIR$/APP/movie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4070">
+        <state relative-caret-position="171">
           <caret line="185" column="46" lean-forward="false" selection-start-line="185" selection-start-column="46" selection-end-line="185" selection-end-column="46" />
 >>>>>>> 39a4665cb1cbc166cdef20b718532a639ed3904e
           <folding>
@@ -1399,10 +1485,49 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/APP/img/222.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/style/shouye.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="284" column="13" lean-forward="false" selection-start-line="284" selection-start-column="13" selection-end-line="284" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/XXX影院.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="176" column="67" lean-forward="false" selection-start-line="176" selection-start-column="67" selection-end-line="176" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/js/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2947">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 606737e68a058f017ed5cef5d196a489fbf4ec50
     <entry file="file://$PROJECT_DIR$/APP/style/xuanzuogoupiao.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
+        <state relative-caret-position="22">
           <caret line="82" column="15" lean-forward="false" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
           <folding />
         </state>
@@ -1410,20 +1535,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/APP/xuanzuogoupiao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="519">
           <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APP/style/shouye.less">
+    <entry file="file://$PROJECT_DIR$/dist/css/shouye.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="230" column="10" lean-forward="true" selection-start-line="230" selection-start-column="10" selection-end-line="230" selection-end-column="10" />
+        <state relative-caret-position="2576">
+          <caret line="269" column="16" lean-forward="false" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APP/影院详情.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="192" column="18" lean-forward="false" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/APP/购票.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="85" column="16" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+=======
 >>>>>>> 39a4665cb1cbc166cdef20b718532a639ed3904e
+>>>>>>> 606737e68a058f017ed5cef5d196a489fbf4ec50
   </component>
 </project>
