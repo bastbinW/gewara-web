@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="../dist/css/movie.css" />
     <title>电影主页面</title>
+    <!--<script>
+        $(function(){
+            $("#btn"). click(function(){
+                /*$("#xq").slideToggle("slow");*/
+                $("#xq").css("height","auto");
+            });
+        });
+    </script>-->
 </head>
 <body>
     <div class="box">
@@ -25,10 +33,26 @@
                 <span>打开APP</span>
             </div>
             <div class="center-c">
-                <img style="width: 100%" src="img/haibao.png" alt=""/>
+                <div style="position: relative">
+                    <a href="javascript:history.back()"><img  style="position: absolute;left: 4%;margin-top: 4%"  src="img/xiangzuo.png" alt=""/></a>
+                   <div>
+                       <a style="position: absolute;right: 4%;margin-top: 4%" class="dropdown-toggle"data-toggle="dropdown" href="#"><img src="img/fenlei.png" alt=""/></a>
+                       <div class="dropdown-menu" style="position: absolute;float: right">
+                           <a style="padding-left: 10px" href="index.html"><img src="img/shouyehsouye.png" alt=""/>首页</a><br/>
+                           <a style="padding-left: 10px" href="login.html"><img src="img/gerengeren.png" alt=""/>个人中心</a>
+                       </div>
+                   </div>
+                    <img style="width: 100%" src="img/haibao.png" alt=""/>
+                    <img style="margin-top: -63%;margin-left: 48%" src="img/bofang.png" alt=""/>
+                </div>
+                <!--<img style="width: 100%" src="img/haibao.png" alt=""/>
+                <div style="display: flex;justify-content: space-between;margin-top: -230px;">
+                    <div> <img src="img/xiangzuo.png" alt=""/></div>
+                    <div><img src="img/caidan.png" alt=""/></div>
+                </div>
                 <div class="bbb" >
                     <img src="img/bofang.png" alt=""/>
-                </div>
+                </div>-->
                 <div class="ccc">
                     <div class="ccc-l">
                         <img  src="img/W020170517518401535651.jpg" alt="">
@@ -72,24 +96,19 @@
                 </div>
                 <div class="jianjie" style="margin-top: 10px">
                     <p class="biaoti">慈父虎爸秒切换，携女共圆摔跤梦</p>
-                    <div class="xiangqing" id="xiangqing" >
-                        <p style="margin:0 10px">简介：马哈维亚·辛格·珀尕（阿米尔·汗 Aamir Khan 饰）曾是印度国家摔跤冠军，因生活所迫放弃摔跤。他希望让儿子可以帮他完成梦想——赢得世界级金牌。结果生了四个女儿本以为梦想就此破碎的辛格却意外发现女儿身上的<!--<span id="xiala" class="collapse">-->惊人天赋，看到冠军希望的他决定不能让女儿的天赋浪费，像其他女孩一样只能洗衣做饭过一生 ，再三考虑之后，与妻子约定一年时间按照摔跤手的标准训练两个女儿：换掉裙子 、剪掉了长发，让她们练习摔跤，并赢得一个又一个冠军，最终赢来了成为榜样激励千千万万女性的机会……</p>
-                        </span> <!-- <p>收起</p>-->
-                    </div>
-                  <!--  <a  data-toggle="collapse" data-target="#xiala" style="color: #ff0000;font-size: 12px;margin-left: 10px">展开</a>-->
-                    <p style="font-size: 16px;margin-left: 10px;margin-top: 10px">剧照</p>
-                    <div class="juzhao">
-                        <div>
-                            <img src="img/haibao.jpg" alt=""/>
-                        </div>
-                        <div>
-                            <img src="img/haibao.jpg" alt=""/>
-                        </div>
-                        <div>
-                            <img style="padding-right: 6px" src="img/haibao.jpg" alt=""/>
-                        </div>
-                    </div>
-                    <p style="color: #ff0000;text-align: center;padding: 6px;border-bottom: 1px solid #dcdcdc">共32张剧照</p>
+<!--
+                    <div class="qqq" style="margin:0 10px;font-size: 12px;height: 36px;overflow: hidden" >&lt;!&ndash;class="collapse in"&ndash;&gt;简介：马哈维亚·辛格·珀尕（阿米尔·汗 Aamir Khan 饰）曾是印度国家摔跤冠军，因生活所迫放弃摔跤。他希望让儿子可以帮他完成梦想——赢得世界级金牌。结果生了四个女儿本以为梦想就此破碎的辛格却意外发现女儿身上的惊人天赋，看到冠军希望的他决定不能让女儿的天赋浪费，像其他女孩一样只能洗衣做饭过一生 ，再三考虑之后，与妻子约定一年时间按照摔跤手的标准训练两个女儿：换掉裙子 、剪掉了长发，让她们练习摔跤，并赢得一个又一个冠军，最终赢来了成为榜样激励千千万万女性的机会……</div>
+-->
+                    <div id="xq" style="margin:0 10px;font-size: 12px;" ><!--class="collapse in"-->简介：马哈维亚·辛格·珀尕（阿米尔·汗 Aamir Khan 饰）曾是印度国家摔跤冠军，因生活所迫放弃摔跤。他希望让儿子可以帮他完成梦想——赢得世界级金牌。结果生了四个女儿本以为梦想就此破碎的辛格却意外发现女儿身上的惊人天赋，看到冠军希望的他决定不能让女儿的天赋浪费，像其他女孩一样只能洗衣做饭过一生 ，再三考虑之后，与妻子约定一年时间按照摔跤手的标准训练两个女儿：换掉裙子 、剪掉了长发，让她们练习摔跤，并赢得一个又一个冠军，最终赢来了成为榜样激励千千万万女性的机会……</div>
+                   <!-- <button id="btn" >&lt;!&ndash;data-toggle="collapse" data-target="#xq"&ndash;&gt;展开</button>-->
+                </div>
+                <p style="font-size: 16px;margin-left: 10px;margin-top: 10px">剧照</p>
+                <div class="juzhao">
+                    <div><img src="img/haibao.jpg" alt=""/></div>
+                    <div><img src="img/haibao.jpg" alt=""/></div>
+                    <div><img style="padding-right: 6px;" src="img/haibao.jpg" alt=""/></div>
+                </div>
+                <p style="color: #ff0000;text-align: center;padding: 6px;border-bottom: 1px solid #dcdcdc"><a style="color: #ff0000;" href="dianyingxiangqing.html">共32张剧照</a></p>
                 </div>
             </div>
             <div class="center-b">
@@ -170,17 +189,57 @@
                         </div>
                     </div>
                 </div>
+                <div style="padding-top: 16px">
+                    <div class="item" style="width: 10%;margin-left: 10px">
+                        <img style="width: 100%;" src="img/gewala-logo.png" alt=""/>
+                    </div>
+                    <div  style="margin-left: 60px">
+                        <span>Vincent</span><br/>
+                        <span style="color: #cfcfcf;font-size: 12px">2017-05-17</span>
+                    </div>
+                    <div style="margin-top: 10px;margin-left: 10px">
+                        <p>励志而感动！非常好看的电影。</p>
+                    </div>
+                    <div style="padding-left: 20px;background-color: white;height: 40px;border-bottom: 1px solid #dcdcdc">
+                        <div class="xingxing2">
+                            <img src="img/星星.png" alt=""/>
+                        </div>
+                        <div class="xingxing2">
+                            <img src="img/星星.png" alt=""/>
+                        </div>
+                        <div class="xingxing2">
+                            <img src="img/星星.png" alt=""/>
+                        </div>
+                        <div class="xingxing2">
+                            <img src="img/星星.png" alt=""/>
+                        </div>
+                        <div class="xingxing2">
+                            <img src="img/星星.png" alt=""/>
+                        </div>
+                        <div class="xingxing2" >
+                            <span style="color:#ff7418;font-size: 14px;margin-left: 6px">10.0</span>
+                        </div>
+                        <div style="float: right;margin-right: 10px">
+                            <img src="img/评论.png" alt=""/>
+                            <span style="color: #dbdbdb">100</span>
+                            <img  src="img/爱心.png" alt=""/>
+                            <span style="color: #dbdbdb">100</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div>
             <div class="guding" style=" width: 100%; position: fixed;bottom: 0;background-color: white;border-top: 1px solid #dcdcdc">
                 <div style="float: left; height: 56px;line-height: 56px;margin-left: 5%" >
-                    <img src="img/爱心2.png" alt=""/>
-                    <span>15K</span>
+                    <a href="login.html"> <img src="img/爱心2.png" alt=""/>
+                        <span>15K</span>
+                    </a>
                 </div>
                 <div style="float: left; height: 56px;line-height: 56px;margin-left:5%">
-                    <img  src="img/写.png" alt=""/>
-                    <span>写哇啦</span>
+                    <a href="login.html"><img  src="img/写.png" alt=""/>
+                        <span>写哇啦</span>
+                    </a>
                 </div>
                 <div style="float: right">
                     <p style="font-size: 18px;background-color: #ff7010;padding:16px 30px;margin-bottom: -4px">

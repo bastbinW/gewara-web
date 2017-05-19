@@ -64,13 +64,15 @@ ul li{
     .bbb{
       display: flex;
       justify-content: center;
-      margin-top: -125px;
+      margin-top: 70px;
     }
     .ccc{
       width: 100%;
       display: flex;
       justify-content: flex-start;
-      margin-top: 18px;
+      margin-top: -100px;
+      z-index: 999;
+      position: relative;
       .xingxing{
         width: 8%;
         float: left;
@@ -90,6 +92,18 @@ ul li{
       }
     }
   }
+  .dropdown-menu {
+    top: 20%;
+    left: 64%;
+    z-index: 1000;
+    min-width: 120px;
+    text-align: left;
+    width: 80px;
+    background-color: rgba(17, 9, 3, 0.3);
+    a{
+      color: white;
+    }
+  }
   .jianjie{
     p{
       font-size: 12px;
@@ -106,15 +120,15 @@ ul li{
       border-bottom: 1px solid #dcdcdc;
       text-align: center;
     }
-    .juzhao{
-      display: flex;
-      justify-content: space-between;
-      img{
-        width: 100%;
-        padding-left: 6px;
-      }
-    }
   }
+.juzhao{
+  display: flex;
+  justify-content: space-between;
+  img{
+    width: 100%;
+    padding-left: 6px;
+  }
+}
   .item{
     float: left;
   }
@@ -125,4 +139,3 @@ ul li{
       width: 100%;
     }
   }
-
