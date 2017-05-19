@@ -69,6 +69,7 @@ ul li {
   width: 100%;
   display: flex;
   justify-content: flex-start;
+  margin-top: 18px;
 }
 .center-c .ccc .xingxing {
   width: 8%;
@@ -78,21 +79,13 @@ ul li {
   width: 100%;
 }
 .center-c .ccc .ccc-l {
-  width: 30%;
+  width: 32%;
   margin-left: 20px;
-  margin-top: 6%;
 }
 .center-c .ccc .ccc-l img {
   width: 100%;
   border: 3px solid white;
   border-radius: 4px;
-}
-.center-c .ddd {
-  padding-top: 15%;
-  margin-left: 20px;
-}
-.center-c .ddd span {
-  font-size: 12px;
 }
 .jianjie p {
   font-size: 12px;
