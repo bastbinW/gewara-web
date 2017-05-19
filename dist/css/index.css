@@ -17,9 +17,12 @@ body {
 }
 #header #header-location {
   float: left;
-  color: white;
   height: 45px;
   line-height: 45px;
+}
+#header #header-location a {
+  text-decoration: none;
+  color: white;
 }
 #header img {
   height: 20px;
@@ -44,9 +47,11 @@ body {
 #header-menu-pulldown li {
   width: 100%;
   height: 60px;
-  color: white;
   padding-top: 18px;
   padding-left: 24px;
+}
+#header-menu-pulldown li a {
+  color: white;
 }
 #header-menu-pulldown li img {
   width: 25px;
@@ -229,6 +234,9 @@ body {
 }
 #cinema-flow .movie-flow .instraduction {
   padding-left: 15px;
+}
+#cinema-flow .movie-flow .instraduction .movie-name {
+  color: black;
 }
 #cinema-flow .movie-flow .instraduction .description {
   margin-top: 5px;
