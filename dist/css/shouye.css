@@ -143,8 +143,8 @@ body {
   left: 10%;
 }
 .yanjingmianfei {
-  width: 160px;
-  height: 30px;
+  width: 40%;
+  height: 4%;
   position: absolute;
   background-color: green;
   left: 28%;
@@ -166,8 +166,8 @@ body {
   left: 12%;
 }
 .shafa {
-  width: 160px;
-  height: 30px;
+  width: 40%;
+  height: 4%;
   position: absolute;
   background-color: green;
   left: 28%;
@@ -189,8 +189,8 @@ body {
   left: 12%;
 }
 .yule {
-  width: 160px;
-  height: 30px;
+  width: 40%;
+  height: 4%;
   position: absolute;
   background-color: green;
   left: 28%;
@@ -267,7 +267,7 @@ h4 {
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
-  color: tomato;
+  color: red;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
