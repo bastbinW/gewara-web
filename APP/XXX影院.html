@@ -4,23 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>XXX影院</title>
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
     <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="../dist/css/shouye.css">
 </head>
 <body>
+<!--<header class="dingcen">-->
+<!--<div  align="center">-->
+    <!--<a href="javascript:history.back();">-->
+    <!--<img src="img/back.png" class="back_button"/></a>-->
+    <!--<p>XXX影院·影吧</p>-->
+ <!--&lt;!&ndash;<span> <img src="img/menu.png"class="menu_button" /></span>&ndash;&gt;-->
+    <!--<div class="biaoti-r dropdown" >-->
+        <!--<a href="#" class="dropdown-toggle"data-toggle="dropdown"><img src="img/menu.png" alt=""/></a>-->
+        <!--<div class="dropdown-menu">-->
+            <!--<a href="#"><img src="img/shouyehsouye.png" alt=""/>首页</a><br/>-->
+            <!--<a href="#"><img src="img/gerengeren.png" alt=""/>个人中心</a>-->
+        <!--</div>-->
+    <!--</div>-->
 
-<header class="dingcen">
-<div  align="center">
-    <img src="img/back.png" class="back_button"/>
-    <p>XXX影院·影吧</p>
-    <img src="img/menu.png"class="menu_button" />
+<!--</div>-->
+<!--</header>-->
+<div class="biaoti">
+    <div class="biaoti-l">
+        <a href="javascript:history.back();"><img src="img/xiangzuo.png" alt=""/></a>
+    </div>
+    <div class="biaoti-c">
+        <span>摔跤吧！爸爸</span><br/>
+        <p>Wrestling Competition</p>
+    </div>
+    <div class="biaoti-r dropdown"  >
+        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><img src="img/menu.png" alt=""/></a>
+        <div class="dropdown-menu">
+            <a href="#"><img src="img/shouyehsouye.png" alt=""/>首页</a><br/>
+            <a href="#"><img src="img/gerengeren.png" alt=""/>个人中心</a>
+        </div>
+    </div>
 </div>
-</header>
     <!--影吧地址与评分-->
     <div class="dizhi">
         <div class="dizhiyupingfen">
@@ -29,7 +51,7 @@
             <br>
         <span class="span2" style="color: gray">市桥街繁华路三号</span>
         </div>
-        <a href="影院详情.html"><img src="img/go.png"  class="go01"/></a></div>
+        <a href="影院详情.html"><img src="go.png" class="go01"/></a></div>
 
     <!--<div class="dianyinghaibao">-->
        <!--<img src="img/1.JPEG" class="dianyinghaibaotu"/>-->
@@ -147,16 +169,17 @@
                     </div>
                     <div class="tab-pane fade" id="home03">
                         <div style="position: absolute;width: 100%; top: 20%;">
-                        <div class="paipian flex-container" style="display: flex;justify-content: space-between;width: 90%">
+                            <div class="paipian flex-container" style="display: flex;justify-content: space-between;width: 90%">
+                            <a href="购票.html">
                             <div>
                                 <span ><h4 >11:50</h4></span>
                                 <span class="label label-default"style="text-align: center">14:10散场</span>
-                            </div>
+                            </div></a>
                             <div  class="dierhang">
                                 <span><p>英语/2D</p></span>
                                 <span><p>3号厅</p></span></div>
-                            <div class="disanhang">
-                                <a href="购票.html" style="color: orangered;font-size: 200%">¥33</a>
+                            <div class="disanhang" >
+                                <a href="购票.html" style="color: orangered;font-size: 200%">¥33<br></a>
                             </div>
                         </div>
                         </div>
@@ -192,6 +215,7 @@
     <div class="flex-item">
         <img src="img/diannao (1).png" height="16" width="16"/><span>访问PC端</span></div>
 </div>
+<a href="购票.html"><div class="touch"></div></a>
 
 </body>
 </html>

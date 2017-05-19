@@ -4,15 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
-    <title>演示：jQuery在线选座订座（影院版）</title>
+    <title>XXX影院购票</title>
     <meta name="keywords" content="jQuery,选座">
 
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
     <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../dist/css/shouye.css">
     <style type="text/css">
         .demo{width:700px; margin:40px auto 0 auto; min-height:450px;}
         @media screen and (max-width: 360px) {.demo {width:100%}}
@@ -42,17 +41,35 @@
     <script src="../bower_components/jquery.seat-charts.min.js"></script>
     <link rel="stylesheet" href="../bower_components/main.css">
     <link rel="stylesheet" href="../dist/css/shouye.css">
+    <script src="js/jquery.seat-charts.min.js"></script>
+    <link rel="stylesheet" href="js/main.css">
 
 </head>
 
 <body style="max-width:375px;max-height: 667px">
-<header class="dingcen">
-    <div  align="center">
-        <a href="XXX影院.html" ><img src="img/back.png" class="back_button"/></a>
-        <b>XXX影院·影吧</b>
-        <img src="img/menu.png"class="menu_button" />
+<!--<header class="dingcen">-->
+    <!--<div  align="center">-->
+        <!--<a href="javascript:history.back();"><img src="img/back.png" class="back_button"/></a>-->
+        <!--<b>XXX影院·影吧</b>-->
+        <!--<img src="img/menu.png"class="menu_button" />-->
+    <!--</div>-->
+<!--</header>-->
+<div class="biaoti">
+    <div class="biaoti-l">
+        <a href="javascript:history.back();"><img src="img/xiangzuo.png" alt=""/></a>
     </div>
-</header>
+    <div class="biaoti-c">
+        <span>摔跤吧！爸爸</span><br/>
+        <p>Wrestling Competition</p>
+    </div>
+    <div class="biaoti-r dropdown"  >
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><img src="img/menu.png" alt=""/></a>
+        <div class="dropdown-menu">
+            <a href="index.html"><img src="img/shouyehsouye.png" alt=""/>首页</a><br/>
+            <a href="#"><img src="img/gerengeren.png" alt=""/>个人中心</a>
+        </div>
+    </div>
+</div>
 
 
     <div class="demo">
