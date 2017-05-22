@@ -1,0 +1,80 @@
+
+.border(@width:1px,@line:solid,@color:red){
+  border:@arguments;
+}
+@city-box-color:rgba(252,248,247,1);
+@city-border-color:rgba(222,221,219,1);
+@header-color:rgba(238,238,238,1);
+@header-height: 32px;
+@myorange: rgba(242,101,34,1);
+@mygray: rgba(177,181,177,1);
+@bodycolor: rgba(243,243,243,1);
+@myorange2:rgba(235,97,32,1);
+@city-height:36px;
+
+body{
+  min-width: 260px;
+  background-color: @bodycolor;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.header{
+  height:@header-height;
+  background-color: @header-color;
+  //.border;
+  span{
+    font-weight: 600;
+    padding-left: 16px;
+    height: @header-height;
+    line-height: @header-height;
+  }
+}
+.city-box{
+  //.border;
+  //height: 300px;
+  //width: 100%;
+  background-color: @city-box-color;
+  padding-left: 12px;
+  padding-right: 6px;
+}
+.row{
+  border:1px solid @city-border-color;
+}
+.city{
+  height: @city-height;
+  text-align: center;
+  border:1px solid @city-border-color;
+  margin: -0.75px;
+  overflow: hidden;
+  span{
+    height: @city-height;
+    line-height: @city-height;
+  }
+}
+.city1{
+  height: @city-height;
+  text-align: center;
+  border:1px solid @city-border-color;
+  margin: -0.75px;
+  overflow: hidden;
+  span{
+    height: @city-height;
+    line-height: @city-height;
+  }
+}
+.Top{
+  display: inline-block;
+  margin: 6px;
+  float: right;
+  img{
+    height: 20px;
+  }
+  //.border;
+}
+#bottom{
+  margin-top: 40px;
+  text-align: center;
+}

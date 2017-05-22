@@ -1,0 +1,137 @@
+body {
+  min-width: 260px;
+  background-color: #f3f3f3;
+}
+#header {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  background: #f26522;
+}
+#header #header-logo {
+  height: 45px;
+  line-height: 45px;
+  float: left;
+}
+#header #header-logo img {
+  padding-left: 5px;
+  height: 26.47058824px;
+}
+#toggle-label {
+  font-size: larger;
+  height: 42px;
+  position: relative;
+}
+#toggle-label #movie-label {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  line-height: 42px;
+  color: #f26522;
+  border-bottom: 2px solid #f26522;
+}
+#toggle-label #cinema-label {
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  line-height: 42px;
+  color: rgba(41, 42, 42, 0.78);
+  border-bottom: 2px solid #b1b5b1;
+}
+.login-block {
+  margin-top: 10px;
+  background-color: #f9f9f9;
+}
+.login-block input {
+  background-color: #f9f9f9;
+  border: hidden;
+  border-bottom: 2px solid gainsboro;
+  width: 100%;
+  padding: 15px 50px;
+}
+#login-box {
+  height: 300px;
+  position: relative;
+}
+#login-box img {
+  margin: 13px;
+  height: 24px;
+  position: absolute;
+  z-index: 2;
+}
+#login-box #code {
+  right: 12px;
+}
+#login-box #code-mobile {
+  right: 104px;
+}
+#login-box button {
+  background-color: #f26522;
+  border: hidden;
+  width: 100%;
+  border-radius: 3px;
+  height: 38px;
+  color: white;
+}
+#login-box #code-mobile-button {
+  right: 12px;
+  width: 84px;
+  font-size: 14px;
+  background-color: #ccc;
+  color: #888;
+  height: 24px;
+  position: absolute;
+  margin-top: 13px;
+}
+#login-submit {
+  margin: 15px 15px;
+}
+#login-submit #login-submit-help {
+  padding-top: 10px;
+}
+#login-submit #login-submit-help #quick-reg {
+  text-decoration: none;
+  float: left;
+  color: #f26522;
+}
+#login-submit #login-submit-help #forget-pwd {
+  text-decoration: none;
+  float: right;
+  color: #666;
+}
+#login-link {
+  margin: 15px 15px;
+}
+#login-link #login-link-title {
+  color: #888;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+}
+#login-link #login-link-title hr {
+  background-color: #aaa;
+  width: 100%;
+  height: 1px;
+  z-index: -1;
+  position: absolute;
+  top: -12px;
+}
+#login-link #login-link-title div {
+  background-color: #f3f3f3;
+  width: 90px;
+  display: inline-block;
+}
+#login-link #login-logo {
+  text-align: center;
+}
+#login-link #login-logo img {
+  height: 55px;
+  margin: 15px;
+}
+#login-mobile {
+  display: none;
+}

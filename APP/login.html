@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <title>个人中心-登录</title>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dist/css/login.css">
+
+</head>
+<body>
+<!--顶部-导航栏-->
+<div id="header">
+    <!--左上角-logo-->
+    <span id="header-logo">
+            <a href="javascript:history.back();"><img src="img/back.png" alt=""></a>
+        </span>
+</div>
+<!--电影、影院切换标签-->
+<div id="toggle-label">
+    <div id="movie-label">帐号登录</div>
+    <div id="cinema-label">手机验证登录</div>
+</div>
+<div id="login-box">
+    <div id="login-acc">
+        <div class="login-block">
+            <img src="img/login-acc.png" alt=""><input type="text" placeholder="手机号/注册邮箱"><br>
+            <img src="img/login-pwd.png" alt=""><input type="password" placeholder="密码"><br>
+        </div>
+        <div class="login-block">
+            <img src="img/login-code.png" alt=""><img id="code" src="img/code.png" alt=""><input type="text" placeholder="验证码"><br>
+        </div>
+    </div>
+    <div id="login-mobile">
+        <div class="login-block">
+            <img src="img/login-mobile.png" alt=""><input type="text" placeholder="11位手机号"><br>
+            <img src="img/login-pwd.png" alt=""><img id="code-mobile" src="img/code.png" alt=""><button id="code-mobile-button">发送验证码</button><input type="password" placeholder="验证码"><br>
+            <img src="img/login-pwd.png" alt=""><input type="password" placeholder="6位短信动态码"><br>
+        </div>
+    </div>
+
+    <div id="login-submit">
+        <button>登录</button><br>
+        <div id="login-submit-help">
+            <a href="#header" id="quick-reg">快速注册</a>
+            <a href="#header" id="forget-pwd">忘记密码？</a>
+        </div>
+    </div>
+</div>
+
+<!--底部第三方登录-->
+<div id="login-link">
+    <div id="login-link-title">
+        <hr><div>第三方登录</div>
+    </div>
+    <div id="login-logo">
+        <a href="#header"><img src="img/login-weibo.png" alt=""></a>
+        <a href="#header"><img src="img/login-qq.png" alt=""></a>
+    </div>
+
+</div>
+<script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+  min-width: 260px;
+  background-color: #f3f3f3;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  height: 32px;
+  background-color: #eeeeee;
+}
+.header span {
+  font-weight: 600;
+  padding-left: 16px;
+  height: 32px;
+  line-height: 32px;
+}
+.city-box {
+  background-color: #fcf8f7;
+  padding-left: 12px;
+  padding-right: 6px;
+}
+.row {
+  border: 1px solid #dedddb;
+}
+.city {
+  height: 36px;
+  text-align: center;
+  border: 1px solid #dedddb;
+  margin: -0.75px;
+  overflow: hidden;
+}
+.city span {
+  height: 36px;
+  line-height: 36px;
+}
+.city1 {
+  height: 36px;
+  text-align: center;
+  border: 1px solid #dedddb;
+  margin: -0.75px;
+  overflow: hidden;
+}
+.city1 span {
+  height: 36px;
+  line-height: 36px;
+}
+.Top {
+  display: inline-block;
+  margin: 6px;
+  float: right;
+}
+.Top img {
+  height: 20px;
+}
+#bottom {
+  margin-top: 40px;
+  text-align: center;
+}

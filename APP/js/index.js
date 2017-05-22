@@ -9,9 +9,9 @@ $("#header-menu").click(function () {
     }else{
         $("#header-menu-pulldown").css("visibility", "hidden");
         menuclick = true;
-    };
+    }
 });
-
+// 电影、影院标签-切换
 var n = 0;
 var width = window.screen.availWidth;
 var step = width/100;
@@ -73,3 +73,9 @@ $("#willsale04").click(function () {
 $("#willsale05").click(function () {
     window.location.href = "movie.html";
 });
+
+// 关闭底部提示栏
+$("#close-bar-bottom").click(function () {
+    $("#openAPP").css("display","none");
+});
+

@@ -165,6 +165,7 @@ body {
   background-color: #fbfbfb;
 }
 #openAPP {
+  display: block;
   width: 100%;
   background-color: #f3f3f3;
   position: fixed;

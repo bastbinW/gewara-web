@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <title>城市列表</title>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dist/css/location.css">
+</head>
+<body>
+<div id="hot">
+    <div class="header">
+        <span>热门城市</span>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>上海</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>北京</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>南京</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>广州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>武汉</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>深圳</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>杭州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>重庆</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>成都</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>苏州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>西安</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>宁波</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>绍兴</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>嘉兴</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>湖州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>无锡</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>福州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>厦门</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>沈阳</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 city"><span>长沙</span></div>
+    </div>
+</div>
+<div id="letter">
+    <div class="header">
+        <span>按照字母排序</span>
+    </div>
+    <div class="row city-box">
+        <a href="#A"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>A</span></div></a>
+        <a href="#B"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>B</span></div></a>
+        <a href="#C"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>C</span></div></a>
+        <a href="#D"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>D</span></div></a>
+        <a href="#E"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>E</span></div></a>
+        <a href="#F"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>F</span></div></a>
+        <a href="#H"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>H</span></div></a>
+        <a href="#J"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>J</span></div></a>
+        <a href="#K"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>K</span></div></a>
+        <a href="#L"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>L</span></div></a>
+        <a href="#M"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>M</span></div></a>
+        <a href="#N"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>N</span></div></a>
+        <a href="#P"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>P</span></div></a>
+        <a href="#Q"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>Q</span></div></a>
+        <a href="#R"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>R</span></div></a>
+        <a href="#S"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>S</span></div></a>
+        <a href="#T"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>T</span></div></a>
+        <a href="#W"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>W</span></div></a>
+        <a href="#X"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>X</span></div></a>
+        <a href="#Y"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>Y</span></div></a>
+        <a href="#Z"><div class="col-xs-2 col-sm-2 col-md-2 col-lg-1 city1"><span>Z</span></div></a>
+    </div>
+</div>
+<div id="A">
+    <div class="header">
+        <span>A</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鞍山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安庆</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安阳</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿坝</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安顺</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安康</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿克苏</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿泰勒地区</span></div>
+    </div>
+</div>
+<div id="B">
+    <div class="header">
+        <span>B</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>北京</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>保定</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>包头</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>巴彦淖尔</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>本溪</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>白山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>白城</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>蚌埠</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>亳州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>滨州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>北海</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>百色</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>巴中</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>毕节</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>保山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>宝鸡</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>白银</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>巴音郭楞</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>博尔塔拉</span></div>
+    </div>
+</div>
+<div id="C">
+    <div class="header">
+        <span>C</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>承德</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>沧州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>长治</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>赤峰</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>朝阳</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>长春</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>常州</span></div>
+    </div>
+</div>
+<div id="D">
+    <div class="header">
+        <span>D</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大同</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大连</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>丹东</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大兴安岭</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大庆</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>德州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>东营</span></div>
+    </div>
+</div>
+<div id="E">
+    <div class="header">
+        <span>E</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鄂尔多斯</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>恩施</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鄂州</span></div>
+    </div>
+</div>
+
+<div id="F">
+    <div class="header">
+        <span>F</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鞍山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安庆</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安阳</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿坝</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安顺</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安康</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿克苏</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿泰勒地区</span></div>
+    </div>
+</div>
+<div id="H">
+    <div class="header">
+        <span>H</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>北京</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>保定</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>包头</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>巴彦淖尔</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>本溪</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>白山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>白城</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>蚌埠</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>亳州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>滨州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>北海</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>百色</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>巴中</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>毕节</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>保山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>宝鸡</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>白银</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>巴音郭楞</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>博尔塔拉</span></div>
+    </div>
+</div>
+<div id="J">
+    <div class="header">
+        <span>J</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>承德</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>沧州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>长治</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>赤峰</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>朝阳</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>长春</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>常州</span></div>
+    </div>
+</div>
+<div id="K">
+    <div class="header">
+        <span>K</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大同</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大连</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>丹东</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大兴安岭</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大庆</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>德州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>东营</span></div>
+    </div>
+</div>
+<div id="L">
+    <div class="header">
+        <span>L</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鄂尔多斯</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>恩施</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鄂州</span></div>
+    </div>
+</div>
+
+<div id="M">
+    <div class="header">
+        <span>M</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鞍山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安庆</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安阳</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿坝</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安顺</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安康</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿克苏</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿泰勒地区</span></div>
+    </div>
+</div>
+<div id="N">
+    <div class="header">
+        <span>N</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>北京</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>保定</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>包头</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>巴彦淖尔</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>本溪</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>白山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>白城</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>蚌埠</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>亳州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>滨州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>北海</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>百色</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>巴中</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>毕节</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>保山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>宝鸡</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>白银</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>巴音郭楞</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>博尔塔拉</span></div>
+    </div>
+</div>
+<div id="P">
+    <div class="header">
+        <span>P</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>承德</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>沧州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>长治</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>赤峰</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>朝阳</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>长春</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>常州</span></div>
+    </div>
+</div>
+<div id="Q">
+    <div class="header">
+        <span>Q</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大同</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大连</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>丹东</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大兴安岭</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大庆</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>德州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>东营</span></div>
+    </div>
+</div>
+<div id="R">
+    <div class="header">
+        <span>R</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鄂尔多斯</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>恩施</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鄂州</span></div>
+    </div>
+</div>
+
+<div id="S">
+    <div class="header">
+        <span>S</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鞍山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安庆</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安阳</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿坝</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安顺</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安康</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿克苏</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿泰勒地区</span></div>
+    </div>
+</div>
+<div id="T">
+    <div class="header">
+        <span>T</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>北京</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>保定</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>包头</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>巴彦淖尔</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>本溪</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>白山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>白城</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>蚌埠</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>亳州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>滨州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>北海</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>百色</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>巴中</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>毕节</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>保山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>宝鸡</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>白银</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>巴音郭楞</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>博尔塔拉</span></div>
+    </div>
+</div>
+<div id="W">
+    <div class="header">
+        <span>W</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>承德</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>沧州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>长治</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>赤峰</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>朝阳</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>长春</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>常州</span></div>
+    </div>
+</div>
+<div id="X">
+    <div class="header">
+        <span>X</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大同</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大连</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>丹东</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大兴安岭</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>大庆</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>德州</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>东营</span></div>
+    </div>
+</div>
+<div id="Y">
+    <div class="header">
+        <span>Y</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鄂尔多斯</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>恩施</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鄂州</span></div>
+    </div>
+</div>
+<div id="Z">
+    <div class="header">
+        <span>Z</span>
+        <a href="#hot"><div class="Top">Top<img src="img/Top.png" alt=""></div></a>
+    </div>
+    <div class="row city-box">
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>鞍山</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安庆</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安阳</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿坝</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安顺</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>安康</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿克苏</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-lg-3 city"><span>阿泰勒地区</span></div>
+    </div>
+</div>
+
+<div id="bottom">
+    <b>在线选座 轻松购票</b>
+    <p>从"格瓦拉"开始，轻松你的电影之旅！</p>
+    <p>Copyright ® 2014 m.gewara.com</p>
+</div>
+<script>
+    $(".city").click(function () {
+        window.location.href = "index.html";
+    });
+</script>
+</body>
+</html>
